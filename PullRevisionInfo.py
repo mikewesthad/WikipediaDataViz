@@ -28,6 +28,9 @@ External Dependencies:
 from collections import defaultdict
 import datetime
 import json
+import time
+import os
+
 import requests
 
 
@@ -35,7 +38,7 @@ import requests
 
 # Parameters for the wiki API request
 locale = "en"
-article = "Ebola virus disease in the United States"
+article = "Monsanto"
 payload = {"prop":"revisions", "titles":article, "continue":"",
 			"rvprop":"ids|timestamp|user|comment|size", 
 			"rvdir":"newer", "rvlimit":"max"}
@@ -78,8 +81,18 @@ def query(locale, request):
 		if 'continue' not in result: break
 		lastContinue = result['continue']
 
+# Check and create data paths
+pathToRevisionFolder = os.path.join(".", "RevisionData")
+if not(os.path.isdir(pathToRevisionFolder)):
+	os.mkdir(pathToRevisionFolder)
+articleFolderName = article.replace(" ", "_")
+pathToRevisionData = os.path.join(".", pathToRevisionFolder, articleFolderName)
+if not(os.path.isdir(pathToRevisionData)):
+	os.mkdir(pathToRevisionData)
+
 # Prep the data file with a header
-csv = open("Revisions.csv", "w")
+csv = open(os.path.join(pathToRevisionData, "Revisions.csv"), "w")
+csv.write("Data pulled on {0}\n".format(time.strftime("%m/%d/%Y at %H:%M:%S")))
 header = "revision id, username, article size after edit (bytes),"\
 		 +"change in article size from edit (bytes), "\
 		 +"time of edit (seconds from first edit),"\
@@ -148,7 +161,8 @@ csv.close()
 
 # Save out a frequency distribution for editors
 sortedKeys = sorted(editorFreq, key=lambda key: editorFreq[key], reverse=True)
-with open("EditorFrequency.csv", "w") as fh:
+with open(os.path.join(pathToRevisionData, "EditorFrequency.csv"), "w") as fh:
+	fh.write("Data pulled on {0}\n".format(time.strftime("%m/%d/%Y at %H:%M:%S")))
 	fh.write("username, number of edits, percent of total edits\n")
 	for key in sortedKeys: 
 		freq = editorFreq[key]

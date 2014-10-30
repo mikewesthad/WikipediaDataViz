@@ -1,3 +1,4 @@
+Data pulled on 10/29/2014 at 11:05:58
 revision id, username, article size after edit (bytes),change in article size from edit (bytes), time of edit (seconds from first edit),time since last edit (seconds), URL to view diff, comments associated with edit
 627863178,SW3 5DL,2549,2549,0.0,0.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=627863178&oldid=0,creating new article
 627863575,SW3 5DL,3114,565,174.0,174.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=627863575&oldid=627863178,Filled in 4 bare reference(s) with [[User:Zhaofeng Li/Reflinks]]
@@ -1504,3 +1505,19 @@ revision id, username, article size after edit (bytes),change in article size fr
 631511112,BlueAg09,104299,19,2334640.0,2764.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631511112&oldid=631505651,/* Transmission to nurses in Dallas */ clarified caption
 631524259,69.248.82.235,104302,3,2340770.0,6130.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631524259&oldid=631511112,/* Mandatory 21-day quarantine */
 631525189,69.248.82.235,104299,-3,2341216.0,446.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631525189&oldid=631524259,
+631562608,66.91.39.225,104289,-10,2360932.0,19716.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631562608&oldid=631525189,/* Duncan's illness and death in Dallas */
+631566866,Gandydancer,104275,-14,2363320.0,2388.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631566866&oldid=631562608,move out of place info to contacts section
+631570414,Super Goku V,105484,1209,2365495.0,2175.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631570414&oldid=631566866,/* Mandatory 21-day quarantine */ Update
+631575316,Art LaPella,105484,0,2368484.0,2989.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631575316&oldid=631570414,/* Mandatory 21-day quarantine */ spelling
+631583883,RoyGoldsmith,105504,20,2375786.0,7302.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631583883&oldid=631575316,/* Thomas Eric Duncan in Liberia */ Re-arranged 'graphs; added to Duncan's explanation
+631584102,RoyGoldsmith,105509,5,2376009.0,223.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631584102&oldid=631583883,/* Thomas Eric Duncan in Liberia */ Whoops
+631584566,Loganmac,105526,17,2376434.0,425.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631584566&oldid=631584102,First mention of Obama doesn't have a link to his wiki page for some reason
+631585114,RoyGoldsmith,105536,10,2376911.0,477.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631585114&oldid=631584566,/* top */ One more word in hatnote
+631585892,RoyGoldsmith,105656,120,2377577.0,666.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631585892&oldid=631585114,/* top */ Fix article definition
+631587537,RoyGoldsmith,105864,208,2379065.0,1488.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631587537&oldid=631585892,/* top */ Ref for 1976; delete "the" (America)
+631588289,RoyGoldsmith,105869,5,2379700.0,635.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631588289&oldid=631587537,/* top */ Re-arrange for clarity
+631588540,RoyGoldsmith,105894,25,2379942.0,242.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631588540&oldid=631588289,/* Transmission to nurses in Dallas */ Expanded section titles
+631607102,SW3 5DL,105777,-117,2394321.0,14379.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631607102&oldid=631588540,all containment efforts are government actions; rmv subsections; mv philanthropy which is not a government containment action
+631607749,SW3 5DL,105249,-528,2394706.0,385.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631607749&oldid=631607102,/* Vaccine development */ rmv confusing info
+631608303,SW3 5DL,105237,-12,2395049.0,343.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631608303&oldid=631607749,/* Treatment */ ce run on sentence
+631611418,Art LaPella,105237,0,2396993.0,1944.0,https://en.wikipedia.org/w/index.php?title=Ebola_virus_disease_in_the_United_States&diff=631611418&oldid=631608303,/* top */ Punctuation goes before references on Wikipedia.
